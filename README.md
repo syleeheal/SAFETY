@@ -13,8 +13,8 @@ For example, to reproduce results in Table 3 & 4 for SAFETY, use the following c
 **./run/run-sta.sh**
 
 ## Dependencies
-numpy==1.21.2
-scikit_learn==1.2.2
+numpy==1.21.2 \\
+scikit_learn==1.2.2 \\
 torch==1.11.0+cu113
 torch_geometric==2.1.0
 torch_scatter==2.0.9
