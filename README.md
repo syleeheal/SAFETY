@@ -1,6 +1,6 @@
 # SAFETY
 
-The official code repository of the paper, "You're Not Alone in Battle: Combat Threat Analysis Using Attention Networks and a New Open Benchmark."
+This is the official code repository of the paper, "You're Not Alone in Battle: Combat Threat Analysis Using Attention Networks and a New Open Benchmark."
 
 ## Dataset
 The proposed datset will automatically download at **dataset foler** when running main.py. 
