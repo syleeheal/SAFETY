@@ -10,7 +10,7 @@ Details with respect to dataset and benchmark task can be found in the **Appendi
 The shell files to run the codes are in the **run foler**.
 For example, to reproduce results in Table 3 & 4 for SAFETY, use the following command:
 
-**./run/run-sta.sh**
+**./run/run-safety.sh**
 
 ## Dependencies
 numpy==1.21.2 
