@@ -92,7 +92,7 @@ class Hyperparam_Optimizer(object):
         
 
         # write results to file
-        file = open('./SAFETY/best_hyperparam/' + self.args.model + '_' + self.args.pred + '.txt', 'w')
+        file = open('./best_hyperparam/' + self.args.model + '_' + self.args.pred + '.txt', 'w')
         file.write('Model: {}\n'.format(self.args.model))
         file.write('Best hyperparameters: {}\n'.format(study.best_params))
         file.write('Best val accuracy: {:4f}\n'.format(study.best_value))
