@@ -1,0 +1,5 @@
+Model: SAFETY
+Best hyperparameters: {'dr': 5e-06, 'dropout': 0.3}
+Best val accuracy: 0.934699
+Parameter importance: OrderedDict([('dr', 0.507105997968658), ('dropout', 0.49289400203134204)])
+

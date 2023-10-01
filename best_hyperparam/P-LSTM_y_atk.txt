@@ -1,0 +1,5 @@
+Model: P-LSTM
+Best hyperparameters: {'dr': 0.0005, 'dropout': 0.3, 'num_layers': 2}
+Best val accuracy: 0.778118
+Parameter importance: OrderedDict([('num_layers', 0.47724115604250605), ('dr', 0.3592533110505686), ('dropout', 0.16350553290692532)])
+

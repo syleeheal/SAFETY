@@ -1,0 +1,5 @@
+Model: MLP
+Best hyperparameters: {'dr': 5e-06, 'dropout': 0.7, 'num_layers': 2}
+Best val accuracy: 0.246400
+Parameter importance: OrderedDict([('dr', 0.8581662058062336), ('num_layers', 0.08782648790215103), ('dropout', 0.054007306291615265)])
+

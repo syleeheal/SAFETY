@@ -1,0 +1,5 @@
+Model: GRU
+Best hyperparameters: {'dr': 1e-05, 'dropout': 0.5, 'num_layers': 2}
+Best val accuracy: 0.386132
+Parameter importance: OrderedDict([('dr', 0.7049347461682663), ('num_layers', 0.24999418370557913), ('dropout', 0.045071070126154474)])
+
