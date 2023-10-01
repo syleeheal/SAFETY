@@ -31,7 +31,7 @@ class Hyperparam_Optimizer(object):
         auroc_scores = []
         f1_micro_scores, f1_macro_scores = [], []
 
-        seeds = torch.load('./SAFETY/seeds_100.pt')
+        seeds = torch.load('./seeds_100.pt')
         for exp in range(3):
 
             # fix random seed

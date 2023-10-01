@@ -34,13 +34,13 @@ def label_weights_generation(y_int, y_atk):
 def load_combat_list(args):
 
 
-    file_name = './SAFETY/dataset/data_dict.pkl'
+    file_name = './dataset/data_dict.pkl'
     if not os.path.exists(file_name):
-        with zipfile.ZipFile('./SAFETY/dataset/data_dict.zip', 'r') as zip_ref:
-            zip_ref.extractall('./SAFETY/dataset/')
+        with zipfile.ZipFile('./dataset/data_dict.zip', 'r') as zip_ref:
+            zip_ref.extractall('./dataset/')
             print('Extracting data_dict.zip ...')
     
-    with open('./SAFETY/dataset/data_dict.pkl', 'rb') as f: data_dict = pickle.load(f)
+    with open('./dataset/data_dict.pkl', 'rb') as f: data_dict = pickle.load(f)
 
 
     """

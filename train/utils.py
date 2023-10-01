@@ -22,7 +22,7 @@ def temp_pool(x):
 
 def load_hyperparam(args):
     
-    path = './SAFETY/best_hyperparam/' + args.model + '_' + args.pred + '.txt'
+    path = './best_hyperparam/' + args.model + '_' + args.pred + '.txt'
 
     # read txt file
     with open(path, 'r') as f: 
