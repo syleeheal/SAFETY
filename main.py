@@ -63,7 +63,7 @@ def parameter_parser():
 def main():
 
     args = parameter_parser()
-    seeds = torch.load('./seeds_100.pt')
+    seeds = torch.load('./SAFETY/seeds_100.pt')
     torch.cuda.set_device(args.device)
     auroc_scores, f1_micro_scores, f1_macro_scores = [], [], []
 
