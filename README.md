@@ -4,7 +4,7 @@ This is the official repository of the paper, "You're Not Alone in Battle: Comba
 
 Dataset, benchmark, and training details are provided in the Appendix.pdf.
 
-This repository contains the proposed (1) **combat simulation dataset** and (2) **model SAFETY**.
+This repository contains the proposed (1) **combat simulation dataset**, (2) **model SAFETY**, and (3) **online Appendix**.
 
 **Note: In coming weeks, we will make more details about the dataset and codes available.**
 
